@@ -19,7 +19,8 @@ $(document).ready(function() {
       }, stripeResponseHandler);
     }
     return false;
-  }); // form submission
+  }); 
+  // form submission
   function stripeResponseHandler(status, response) {
     // Get a reference to the form:
     var f = $("#new_user");
